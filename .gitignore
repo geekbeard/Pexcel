@@ -1,0 +1,38 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# PyInstaller output
+build/
+# Keep the built exe in the repo, ignore everything else PyInstaller drops in dist/
+dist/*
+!dist/Pexcel.exe
+*.spec
+
+# Sample and test files (regenerate with tools/makeSamples.py)
+# Keeps real spreadsheets you drop in here out of the public repo.
+samples/
+*.xlsx
+*.xlsm
+*.xlsb
+*.xls
+*.ods
+*.csv
+*.pdf
+
+# Generated at build time
+assets/pexcel.ico
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local Claude Code settings
+.claude/settings.local.json
